@@ -51,7 +51,7 @@ public class ElevatorMain {
         }
         
         if(operationMode == null){
-            operationMode = "ModeA";
+            operationMode = "ModeB";
         }
 
         new ElevatorMain().runElevator(fileName, operationMode);
